@@ -1,0 +1,28 @@
+<!doctype html>
+<html ng-app="jsonld-test">
+  <head>
+    <script src= "node_modules/rdflib/dist/rdflib.js"></script>
+    <script src="build/_bower.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <link rel="stylesheet" href="build/_bower.css">
+  </head>
+  <body ng-controller="ldcontroller">
+  
+    <h2>Title: Persuasion</h2>
+    <p>Author: <a href="" ng-click="openAuthor('http://viaf.org/viaf/102333412')">Jane Austen</a></p>
+    <p>Subjects:</p>
+    <ul>
+        <li>Elliot, Anne -- (Fictitious character), -- 1787- -- Fiction.</li>
+        <li>England -- Social life and customs -- 19th century -- Fiction.</li>
+        <li>Young women -- England -- Fiction. </li>
+    </ul>
+    
+    <p>Descriptions:</p>
+    <ul>
+    <li>Austen's last novel is the crowning achievement of her matchless career. Her heroine, Anne Elliot, a woman of integrity, breeding and great depth of emotion, stands in stark contrast to the brutality and hypocrisy of Regency England. 
+    Includes a new Introduction by Margaret Drabble, famed novelist and editor of The Oxford Companion to the English Language.</li>
+    </ul> 
+    
+</body>
+</html>
