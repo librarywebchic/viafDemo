@@ -10,3 +10,17 @@
 <p>Death date: {{deathDate}}</p>
 <p>Birthplace: {{birthplace}}</p>
 <p>Description: {{description}}</p>
+
+<p ng-show="influenced_persons">Influenced: </p>
+    <ul ng-show="influenced_persons">
+        <li ng-repeat="influenced_person in influenced_persons">
+        {{influenced_person}}
+        </li>
+      </ul>  
+ 
+<p ng-show="influences_persons">Influenced By: </p>
+    <ul ng-show="influences_persons">
+        <li ng-repeat="influences_person in influences_persons">
+        {{influences_person}}
+        </li>
+      </ul>        
